@@ -1,7 +1,7 @@
-FROM arizonatribe/centossupervisor
+FROM arizonatribe/centos
 MAINTAINER David Nunez <arizonatribe@gmail.com>
 
-ENV APP_NAME centosrethinkdbsupervisor
+ENV APP_NAME centosrethinkdb
 
 # Add RethinkDb repo and install it
 RUN wget http://download.rethinkdb.com/centos/7/`uname -m`/rethinkdb.repo \
